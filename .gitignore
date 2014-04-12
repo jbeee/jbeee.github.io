@@ -1,0 +1,13 @@
+node_modules/
+bower_components/
+*.log
+*.jpg
+*.png
+*.ico
+*.pdf
+*.gif
+.sass-cache/
+
+
+build/
+dist/
