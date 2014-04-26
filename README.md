@@ -64,3 +64,31 @@ http://jbee.io
 			</div>
 			<footer>
 				<button id="pdfButton">Downlad as pdf</button> <button class="emailMe" id="emailButton">Contact</button> 
+
+
+					&:before 
+		content: ""
+		position: absolute
+		left: 0
+		top: 0
+		width: 10px
+		height: 100%
+		-webkit-border-radius: 50%
+		border-radius: 50%
+		-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+		-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+		z-index: -1
+	&:after
+		content: ""
+		position: absolute
+		right: 0
+		top: 0
+		width: 10px
+		height: 100%
+		-webkit-border-radius: 50%
+		border-radius: 50%
+		-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+		-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+		z-index: -1
