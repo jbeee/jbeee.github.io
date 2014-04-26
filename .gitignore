@@ -11,3 +11,8 @@ bower_components/
 
 build/
 dist/
+.editorconfig
+.jshintrc
+.bowerrc
+
+jbee.github.io

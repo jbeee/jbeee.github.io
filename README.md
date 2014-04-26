@@ -15,3 +15,52 @@ http://jbee.io
 * php capture ip-source, email form, &amp; html -> pdf script
 * (Yes... visitors -may- be tracked)
 
+
+
+#Fix and Add!
+			</footer>
+			<section id="acExp" class="bigbottom" style="dsiplay:none">
+			<h2>Relevant Academic Work</h2>
+			 <>github</><>stackoverflow</><>twitter</><>codepen</><> coderwall</>
+			</section>
+
+
+
+				<h3 class="jTitle online">Online Classes & Certifications</h3>
+				<div>
+					<span class="jClass online"><strong>MongoDB</strong></span>
+					<div class="jDesc online">
+					+MongoDB
+					</div>
+				</div>
+
+				<div>
+					<span class="jName online"><strong>coursera</strong></span>
+					<div class="jDesc online">
+					+Coursera
+					</div>
+				</div>
+
+				<div>
+					<div class="jName online"><strong>codeschool</strong></div>
+					<img src="https://d1tijy5l7mg5kk.cloudfront.net/assets/press_kit/logo-brackets-9e418c7e7813aeef79311af45824a348.png">
+					<div class="jDesc online">
+					+codeschool
+					</div>
+				</div>
+
+				<div>
+					<span class="jName online"><strong>codeeval</strong></span>
+					<div class="jDesc online">
+					codeeval
+					</div>
+				</div>
+			</section>
+
+			<section id="social" class="bigbottom">
+			<h2>Tech-Centered Social Media</h2>
+			 <>github</><>stackoverflow</><>twitter</><>codepen</><> coderwall</>
+			</section>
+			</div>
+			<footer>
+				<button id="pdfButton">Downlad as pdf</button> <button class="emailMe" id="emailButton">Contact</button> 
