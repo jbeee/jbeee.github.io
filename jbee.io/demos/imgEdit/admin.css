@@ -1,0 +1,500 @@
+* 
+{
+	margin:0;
+   	padding:0;
+}
+body
+{
+	background-color:#fff;
+	text-align:center;
+	height:100%;
+	width:100%;
+	font-family:Arial Narrow, Arial, Helvetica, sans-serif;
+}
+
+
+#logo{background:url(../graphics/OasisAdminLogo.png) no-repeat;height:63px;position:relative;width:940px}
+.mainNav{left:239px;position:absolute;top:39px}
+#goHome{cursor:pointer;height:60px;left:0;position:absolute;top:0;width:255px}
+#mainMenu{height:64px;margin-top:10px;position:relative}
+#mainNav{left:70px;overflow:hidden;position:absolute;top:37px;width:1000px}
+.unselectedButtons a{background-color:#C5C7C8;display:block;height:100%;text-align:center;width:100%}
+.unselectedButtons a:hover{background-color:#A1A3A5;}
+.selectedButtons a{background-color:#A1A3A5;display:block;height:100%;text-align:center;width:100%}
+.selectedButtons a:hover{background-color:#a0a0a0;}
+#topButtons{height:20px;margin-right:9px;width:131px}
+.subMenuTD{background-color:#000;height:72px;width:129px}
+.subMenuTD a{display:table-cell;height:72px;text-align:center;vertical-align:center;width:129px}
+.subText{color:#fff;display:block;font-size:12px;font-weight:700;padding-top:25px;text-transform:uppercase}
+.smSpacer{height:11px;width:100%}
+.subMenu a:hover{background-color:#A1A3A5}
+.subMenu a:active{background-color:#999}
+.subMenu {background-color:#C5C7C8;}
+input,textarea{font-family:"Arial Narrow", Helvetica, sans-serif;color:#333;background-image: url(../graphics/inputShadow.png);border:1px solid #999;}
+#spacer{width:1px;height:1px;position:absolute;}
+#sideMenu{width:208px;}
+
+input,textarea,select
+{
+font-family:"Arial Narrow", Helvetica, sans-serif;
+background-color:#FFF;
+background-image: url(../graphics/inputShadow.png);
+background-repeat: repeat-x;
+border: 1px solid #BBB;
+}
+
+a img
+{
+	border:0;
+}
+
+a 
+{
+	text-decoration:none;
+}
+
+h1
+{
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding-top:1px;
+	color:#fff;
+}
+
+
+.mainAdminBody
+{
+	width:auto;
+	height:auto;
+	position:relative;
+	margin-top:1px;
+	background-color:#fefefe;
+	display:block;
+	text-align:left;
+}
+
+
+
+.mainAdminBody table
+{
+	color:#666;
+	font-size:13px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+.changeMe
+{
+	border:1px dashed #BBB;
+	padding:10px;
+}
+
+
+.errorMsg{color:#C00;font-size:11px;text-transform:uppercase;line-height:13px;display:block;}
+.errorMsg b{letter-spacing:2px;font-size:14px;font-weight:bolder;}
+.errorMsg strong{letter-spacing:1px;line-height:13px;font-size:11px;}
+.errorMsg u{letter-spacing:1px;font-size:12px;font-weight:bolder;text-decoration:none;}
+
+#confirmSave
+{
+	color:#9ed89e;
+	font-size:12px;
+	font-weight:bold;
+}
+.prettyDamnit
+{
+ width:100px;
+ background-color:#EEE;
+ font-weight:bold;
+ letter-spacing:1px;
+ border: 1px solid #AAA;
+}
+
+.lilTexts
+{
+	height:30px;
+}
+.lilTexts2
+{
+	height:30px;
+	line-height:30px;
+	width:129px;
+}
+
+.bigSaveButtons
+{
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	background-color:#fafafa;
+	background-image:none;
+	border: 1px outset #ccc;
+	color:#999;
+}
+#saveProjButton
+{	
+	width:131px;
+	height:80px;
+	height:130px\9; /* IE9 and below */	
+	margin-left:9px;
+	padding-top:50px;
+	text-align:center;
+	border: 1px solid #ddd;
+}
+#savePhotoButton
+{		
+	width:210px;
+	height:100px;
+}
+.addButton2
+{
+	background:url("../graphics/editButtons.png") repeat 0px 0px;
+	width:28px;
+	height:30px;
+	cursor:pointer;
+}
+
+.preview
+{
+	font-size:16px;
+	font-family:"Arial Narrow", Helvetica, sans-serif;
+	color:#FFF;
+	font-weight:500;
+	line-height:22px;
+	text-transform:none;
+}
+.preview h3
+{
+	font-size:14px;
+	text-transform:uppercase;
+}
+.preview a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+.preview strong
+{
+	font-weight:normal;
+	font-size:17px;
+	letter-spacing:-1px;
+	text-transform:uppercase;
+}
+
+.preview h1
+{
+	font-size:13px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.preview h5
+{
+	font-size:14px;
+	font-weight:bolder;
+	text-transform:uppercase;
+	display:block;
+	padding-left:8px;
+	padding-top:3px;
+	line-height:16px;
+	letter-spacing:1px;
+}
+#editedStatement
+{
+	font-size:16px;
+	line-height:20px;
+	letter-spacing:2px;
+	padding:20px;
+}
+
+.quarterSection
+{
+	position:absolute;
+	top:0px;
+	width:201px;
+	height:auto;
+	overflow:hidden;
+}
+#portHomes
+{
+	left:0px;
+}
+#portAdditions
+{
+	left:212px;
+}
+#portRemodel
+{
+	left:424px;
+	width:202px;
+}
+#portCommercial
+{
+	left:637px;
+	width:202px;
+}
+.portGroup
+{
+  background-color:#C5C7C8;
+  height:200px;
+}
+.portGroupContainer
+{
+	width:180px;
+	height:200px;
+	overflow:hidden;
+	margin-left:10px;
+	padding-top:10px;
+}
+.portImage
+{
+	width:202px;
+}
+
+.portImageContainer
+{
+	margin-top:11px;
+}
+
+.noteText 
+{
+	font-size:10px;
+	font-weight:bold;
+	color:#777;
+	letter-spacing:2px;
+	word-spacing:4px;
+	text-transform:none;
+	width:100%;
+	text-align:right;
+}
+.noteText b
+{
+	font-size:10px;
+	color:#BBB;
+	font-weight:lighter;
+	letter-spacing:1px;
+	text-transform:uppercase;
+}
+.smallRadio
+{
+	font-size:10px;
+	font-weight:bold;
+	color:#777;
+	letter-spacing:2px;
+	word-spacing:2px;
+	margin-left:18px;
+}
+
+.mRadio
+{
+	font-size:10px;
+	font-weight:bold;
+	color:#777;
+	letter-spacing:2px;
+}
+
+.apImgDivFormat
+{
+	text-align:center;		
+	border: 1px dashed #AAA;
+	margin-bottom:10px;
+}
+
+.lilButton a
+{
+	width:100%;
+	height:100%;
+	color:#777;
+	cursor:pointer;
+	font-size:11px;
+	text-transform:uppercase;
+	background-color:#e2e2e2;
+	border: 1px solid #ccc;
+	display:block;
+	margin-bottom:10px;
+}
+.lilButton a:hover
+{
+	border-top: 1px solid #ecf9fe;
+	border-left: 1px solid #ecf9fe;
+	background-color:#c7dcd3;
+	border-bottom: 1px solid #88baa3;
+	border-right: 1px solid #88baa3;
+}
+
+#editTable
+{
+	font-size:13px;
+	color:#666;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#apSide1Top img
+{
+	height:150px;
+}
+
+
+#apSide1Single img
+{
+	height:428px;
+}
+.typeSelect
+{
+	width:150px;
+	letter-spacing:2px;
+	font-size:16px;
+}
+.ABtn{background:url(../graphics/smallActionBtns.png) repeat 0 0px;cursor:pointer;height:20px;overflow:hidden;width:20px}
+.absContainer
+{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.projPPL
+{
+	border:1px solid #bbb;
+	height:0px;
+	width:175px;
+	margin-left:7px;
+}
+#projInfoTD input
+{
+	width:129px;
+	height:27px;
+	font-size:13px;color: #888;font-weight:bold;
+}
+
+
+
+#desc
+{
+	
+	height:117px;width:273px;
+	font-size:13px;color: #888;font-weight:bold;
+	
+}
+
+#kws
+{
+	width:273px;height:75px;font-size:13px;color: #888;font-weight:bold;
+}
+
+
+#apPhotoContainer
+{
+	position:relative;
+	width:410px;
+	overflow:hidden;
+	border:1px solid #aaa;
+	background-color:#eee;
+}
+#editKws
+{
+	width:212px;
+	height:190px;
+}
+.shPhInd{display:none;}
+.showImgBorder{	border: 1px dashed #AAA;background-color:#fff;}
+.showImg{background-color:#e9e9e9;background:url(../graphics/missingTHM.png) #e9e9e9 no-repeat center;border:1px solid #ccc;margin:5px;overflow:hidden;cursor:pointer;position:relative;}
+.showImg img{width:inherit;height:inherit;}
+.addPhotoBtn,.addPgCBtn{background:url(../graphics/editButtons.png) repeat 0 0;width:28px;height:30px;cursor:pointer}
+.editPhotoBtn,.editTextBtn,.ePgCBtn{background:url(../graphics/editButtons.png) repeat 0 61px;width:28px;height:30px;cursor:pointer}
+
+.absContainer{position:relative;width:width:100%px;height:100%}
+.dBtn{background:url(../graphics/editButtons.png) repeat 0 122px;width:28px;height:30px;cursor:pointer}
+.apPhotoTxt{width:180px;height:80px;color:#aaa;font-size:11px;text-transform:uppercase;overflow:hidden; letter-spacing:-1; line-height:13px;}
+.apPhotoTxt b{text-transform:none;color:#979797;font-size:25px;line-height:26px;letter-spacing:-2px;}
+.apPhoto{background-color:#f7f7f7;border-bottom:1px dotted #bbb;border-top:1px dotted #bbb;cursor:move;overflow:hidden;height:95px;width:400px;border-left:5px solid #dadada;border-right:5px solid #dadada;}
+.item{background-color:#f7f7f7;border-bottom:1px dotted #bbb;border-top:1px dotted #bbb;cursor:move;overflow:hidden;
+height:95px;width:42px;}
+.iI{position:relative;width:100%;height:100%;color:#888;font-size:13px;font-weight:bold;}
+.frmt{width:125px;px;color:#888;font-size:13px;font-weight:bold;display:block;padding-left:7px;padding-top:6px;overflow:hidden;height:23px;}
+.catProj{border:1px solid #bbb;height:0px;width:195px;}
+
+#mInfoTD input
+{
+	width:220px;
+	height:27px;
+	font-size:13px;color: #888;font-weight:bold;
+}
+#mInfoTD b
+{	
+	color:#444;
+	font-size:13px;
+	font-weight:bold;
+	text-transform:uppercase;
+	display:block;
+	margin-top:10px;
+}
+.mFRMT{color:#444;font-size:13px;font-weight:bold;text-transform:uppercase;}
+.mFRMT b{font-size:16px;}
+#mDesc{width:220px;font-size:13px;color: #888;font-weight:bold;}
+#mKW{width:220px;font-size:13px;color: #888;font-weight:bold;}
+.pgPer{background:none;width:15px;}
+.radioFRMT radio
+{
+	width:15px;
+	height:15px;
+}
+
+
+
+/*********** Team ***********/
+#showHtmlHelp {width:40px;height:18px; position:absolute; padding:2px;}
+#showHtmlHelp a
+{
+	width:100%;
+	height:100%;
+	color:#777;
+	cursor:pointer;
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	background-color:#d3d5fb;
+	border: 1px solid #acadca;
+	display:block;
+	margin-bottom:10px;
+	text-align:center;
+}
+#showHtmlHelp a:hover
+{
+	border-top: 1px solid #ecf9fe;
+	border-left: 1px solid #ecf9fe;
+	background-color:#c7dcd3;
+	border-bottom: 1px solid #88baa3;
+	border-right: 1px solid #88baa3;
+}
+
+.editTText{height:485px;width:321px;position:relative;background-color:#e7e7e7; position:relative;}
+.editTText textarea{ 
+	font-size:14px;
+	color:#555;
+	margin-left:10px;
+	margin-top:10px;
+	}
+.editTText input{margin-top:8px;margin-left:11px; font-size:14px;color:#555;text-transform:uppercase; font-weight:bold;}
+
+
+#saveTeamButton{text-align:center;padding-top:15px;}
+#saveTChanges{color:#666;font-weight:bold;text-transform:uppercase;}
+
+#htmlHelp {z-index:100;position:absolute;overflow:hidden;font-family:"Arial Narrow", Helvetica, sans-serif;color:#fff;background-color:#c5c7c8;display:none;}
+
+#htmlHelp table td{height:45px;}
+#closeHtmlBtn{position:absolute; right:0px; top:0px;}
+
+/*******PROCESS EDIT ******/
+
+
+.processEdit{width:981px;height:286px;background-color:#f3f3f3;border:1px dotted #ddd;}
+.smallProcRadio{font-size:11px;letter-spacing:-1px;font-weight:700;text-transform:uppercase;color:#BBB;}
+.procSideWS{width:115px;height:4px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;position:absolute;left:0;top:75px;background-color:#fff;}
+#procEdPU{background-color:#ddd;border:1px solid #aaa;height:260px;width:981px;font-family:"Arial Narrow", Helvetica, sans-serif;color:#fafafa;overflow:hidden;}
+#procEdPU table{color:#fff;font-size:20px;line-height:24px;word-spacing:1px;font-weight:lighter;}
+#procTitleEdit{height:30px;font-size:14px;text-transform:uppercase;font-weight:bolder;width:417px;}
+#procTxtEdit{font-size:19px;line-height:24px;font-weight:lighter;word-spacing:1px;width:647px;height:142px;}
+.copyMe{font-size:11px;color:#666;background-color:#CCC;font-family:"Courier New", Courier, monospace;letter-spacing:-1px;}
+.saveProcBtn{background-color:#fafafa;background-image:none;border: 1px outset #ccc;}
+.saveProcBtn p{font-size:20px;font-weight:bold;	text-transform:uppercase;color:#999;}

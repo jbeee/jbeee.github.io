@@ -71,7 +71,7 @@ html {
 
 /* line 12, ../sass/rStyle.sass */
 body {
-  overflow: hidden;
+  overflow-x: hidden;
   width: 90%;
   background: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0.5) 20%, rgba(0, 25, 51, 0.2)), -webkit-linear-gradient(108deg, #333333, #e0a681 10%, black 90%);
   font-size: 14px;
@@ -83,7 +83,7 @@ body {
 .main_Container {
   margin-left: 10%;
   width: 90%;
-  height: auto;
+  height: 1600px;
   background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 80, color-stop(0%, #ffffff), color-stop(80%, #efefef));
   background: -webkit-radial-gradient(#ffffff, #efefef 80%);
   background: -moz-radial-gradient(#ffffff, #efefef 80%);
@@ -97,24 +97,24 @@ body {
   background: none;
 }
 
-/* line 34, ../sass/rStyle.sass */
+/* line 35, ../sass/rStyle.sass */
 header {
   height: 120px;
 }
 
-/* line 37, ../sass/rStyle.sass */
+/* line 38, ../sass/rStyle.sass */
 header, section {
   width: 100%;
   display: block;
   position: relative;
 }
 
-/* line 42, ../sass/rStyle.sass */
+/* line 43, ../sass/rStyle.sass */
 section {
   line-height: 16px;
 }
 
-/* line 45, ../sass/rStyle.sass */
+/* line 46, ../sass/rStyle.sass */
 .headerStyle, .myName, .myInfo {
   margin-left: 3%;
   display: block;
@@ -123,11 +123,11 @@ section {
   height: 120px;
 }
 
-/* line 52, ../sass/rStyle.sass */
+/* line 53, ../sass/rStyle.sass */
 .myName {
   width: 70%;
 }
-/* line 55, ../sass/rStyle.sass */
+/* line 56, ../sass/rStyle.sass */
 .myName h1 {
   font-family: "PT Mono";
   font-size: 8em;
@@ -136,20 +136,20 @@ section {
   text-shadow: 1px 1px 0px #1a1a1a, -1px -1px 1px #eeeeee, 0px 2px 5px #444444;
 }
 
-/* line 62, ../sass/rStyle.sass */
+/* line 63, ../sass/rStyle.sass */
 .myInfo {
   margin-top: 20px;
   font-size: 1.5em;
   width: 10%;
 }
-/* line 67, ../sass/rStyle.sass */
+/* line 68, ../sass/rStyle.sass */
 .myInfo span {
   display: block;
   width: 90%;
   height: 20px;
 }
 
-/* line 72, ../sass/rStyle.sass */
+/* line 73, ../sass/rStyle.sass */
 h2 {
   font-size: 2em;
   line-height: 1.1em;
@@ -163,12 +163,12 @@ h2 {
   text-shadow: 0px 1px 1px #444444;
 }
 
-/* line 84, ../sass/rStyle.sass */
+/* line 85, ../sass/rStyle.sass */
 #technology {
   height: 400px;
 }
 
-/* line 87, ../sass/rStyle.sass */
+/* line 88, ../sass/rStyle.sass */
 h3 {
   display: block;
   background-color: #fefefe;
@@ -183,7 +183,7 @@ h3 {
   margin-bottom: 5px;
 }
 
-/* line 100, ../sass/rStyle.sass */
+/* line 101, ../sass/rStyle.sass */
 .clearfix {
   content: " ";
   display: block;
@@ -192,7 +192,7 @@ h3 {
   clear: both;
 }
 
-/* line 107, ../sass/rStyle.sass */
+/* line 108, ../sass/rStyle.sass */
 .techGrid {
   float: left;
   margin-right: 1.3%;
@@ -202,21 +202,21 @@ h3 {
   background-color: whitesmoke;
   margin-bottom: 10px;
 }
-/* line 115, ../sass/rStyle.sass */
+/* line 116, ../sass/rStyle.sass */
 .techGrid.long {
   height: 170px;
 }
-/* line 117, ../sass/rStyle.sass */
+/* line 118, ../sass/rStyle.sass */
 .techGrid.short {
   height: 80px;
 }
-/* line 120, ../sass/rStyle.sass */
+/* line 121, ../sass/rStyle.sass */
 .techGrid ul {
   display: block;
   margin-left: 10px;
 }
 
-/* line 126, ../sass/rStyle.sass */
+/* line 127, ../sass/rStyle.sass */
 .vTitle {
   float: left;
   margin-right: 0.5%;
@@ -227,7 +227,7 @@ h3 {
   display: block;
 }
 
-/* line 135, ../sass/rStyle.sass */
+/* line 136, ../sass/rStyle.sass */
 .bigbottom {
   float: left;
   width: 95%;
@@ -235,40 +235,40 @@ h3 {
   margin-right: 1%;
 }
 
-/* line 141, ../sass/rStyle.sass */
+/* line 142, ../sass/rStyle.sass */
 #experience {
   height: 720px;
 }
 
-/* line 144, ../sass/rStyle.sass */
+/* line 145, ../sass/rStyle.sass */
 #academic {
   height: 200px;
 }
 
-/* line 147, ../sass/rStyle.sass */
+/* line 148, ../sass/rStyle.sass */
 .fitMe {
   height: 900px;
 }
 
-/* line 150, ../sass/rStyle.sass */
+/* line 151, ../sass/rStyle.sass */
 .jTitle {
   display: block;
   height: 0.8em;
 }
 
-/* line 155, ../sass/rStyle.sass */
+/* line 156, ../sass/rStyle.sass */
 .jDesc {
   font-size: 0.8em;
   width: 80%;
   margin-left: 5%;
   margin-bottom: 2em;
 }
-/* line 161, ../sass/rStyle.sass */
+/* line 162, ../sass/rStyle.sass */
 .jDesc p {
   margin-bottom: 1em;
 }
 
-/* line 164, ../sass/rStyle.sass */
+/* line 165, ../sass/rStyle.sass */
 .jDate {
   font-size: 0.9em;
   text-decoration: italic;
@@ -279,7 +279,7 @@ h3 {
   font-family: "PT Mono";
 }
 
-/* line 173, ../sass/rStyle.sass */
+/* line 174, ../sass/rStyle.sass */
 .jName {
   font-size: 0.7em;
   display: block;
@@ -290,7 +290,7 @@ h3 {
   margin-left: 5%;
   font-family: "PT Mono";
 }
-/* line 182, ../sass/rStyle.sass */
+/* line 183, ../sass/rStyle.sass */
 .jName strong {
   font-size: 1.2em;
   letter-spacing: 0.02 em;
@@ -298,58 +298,58 @@ h3 {
 }
 
 @media only screen and (max-width: 1200px) {
-  /* line 191, ../sass/rStyle.sass */
+  /* line 192, ../sass/rStyle.sass */
   .myName h1 {
     letter-spacing: -10px;
     font-size: 7em;
   }
 }
 @media only screen and (max-width: 900px) {
-  /* line 196, ../sass/rStyle.sass */
+  /* line 197, ../sass/rStyle.sass */
   .myName {
     width: 100%;
   }
 
-  /* line 198, ../sass/rStyle.sass */
+  /* line 199, ../sass/rStyle.sass */
   .bigbottom {
     width: 96%;
   }
 
-  /* line 200, ../sass/rStyle.sass */
+  /* line 201, ../sass/rStyle.sass */
   .techGrid {
     width: 47%;
   }
 
-  /* line 202, ../sass/rStyle.sass */
+  /* line 203, ../sass/rStyle.sass */
   .main_Container {
     margin-left: 5%;
     width: 100%;
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 207, ../sass/rStyle.sass */
+  /* line 208, ../sass/rStyle.sass */
   .myName h1 {
     font-size: 6.5em;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 211, ../sass/rStyle.sass */
+  /* line 212, ../sass/rStyle.sass */
   .myInfo {
     font-size: 1em;
   }
 
-  /* line 213, ../sass/rStyle.sass */
+  /* line 214, ../sass/rStyle.sass */
   .techGrid {
     width: 95%;
   }
 
-  /* line 215, ../sass/rStyle.sass */
+  /* line 216, ../sass/rStyle.sass */
   .vTitle {
     margin-right: 9%;
     height: 1070px;
   }
 
-  /* line 219, ../sass/rStyle.sass */
+  /* line 220, ../sass/rStyle.sass */
   .sTitle .flip90 {
     display: none;
   }

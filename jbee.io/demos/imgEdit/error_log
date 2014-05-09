@@ -1,0 +1,1 @@
+[28-Feb-2014 14:13:46 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'markmorr_SQL1'@'localhost' (using password: YES) in /home2/leltrans/public_html/jbee/demos/imgEdit/teamAdmin.php on line 13
