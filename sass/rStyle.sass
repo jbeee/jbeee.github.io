@@ -44,7 +44,7 @@ section
 	line-height: 16px
 
 .headerStyle
-	margin-left : 3%
+	margin-left : 2%
 	display : block
 	float : left
 	min-width : 200px
@@ -53,6 +53,7 @@ section
 .myName
 	@extend .headerStyle
 	width : 70%
+	display: block
 	h1
 		font-family : 'PT Mono'
 		font-size : 8em
@@ -62,13 +63,16 @@ section
 
 .myInfo
 	@extend .headerStyle
-	margin-top: 20px
-	font-size: 1.5em
+	margin-top: 1.5em
+	font-size: 1.0em
 	width : 10%
 	span
 		display : block
 		width :  90%
-		height : 20px
+		height : 1.5em
+		float: none
+		font-weight: bold
+		letter-spacing: 0.2em
 
 h2
 	font-size : 2em
@@ -168,7 +172,7 @@ h3
 	display: block
 	float: right
 	height: 2em  
-	width: 40%
+	width: 30%
 	font-family : 'PT Mono'
 
 .jName
@@ -177,7 +181,7 @@ h3
 	float: left
 	height: 3em
 	letter-spacing: 0.01em
-	width: 45%
+	width: 55%
 	margin-left: 5%
 	font-family : 'PT Mono'
 	strong
@@ -187,15 +191,27 @@ h3
 
 
 
-@media only screen and (max-width: 1200px)
-	.myName		
+@media only screen and (max-width: 1190px)
+	.myName
+		height: 7.6em			
 		h1
 			letter-spacing: -10px
 			font-size: 7em
 
-@media only screen and (max-width: 900px)
+@media only screen and (max-width: 972px)
 	.myName
 		width: 100%
+		h1
+			font-size: 8em
+	.myInfo
+		width: 100%		
+		height: 8em		
+		span
+			background-color: #f5f5f5
+			font-size: 1.2em
+			margin-left: 1%
+			margin-bottom: 0.5em
+			color: #888			
 	.bigbottom
 		width: 96% 
 	.techGrid 
@@ -203,19 +219,61 @@ h3
 	.main_Container
 		margin-left: 5%
 		width: 100%
-@media only screen and (max-width: 600px)
-	.myName 
+	#experience
+		height: 900px
+@media only screen and (max-width: 655px)
+	.myName
+		height: 7.4em
 		h1
 			font-size : 6.5em
+	#experience
+		height: 980px	
+	.jDate
+		font-size: 0.9em
+		width: 90%
+		float: left
+		margin-left: 5%
+	.jName
+		width:	90%
+		height: 2.5em
 
-@media only screen and (max-width: 500px) 
+@media only screen and (max-width: 517px)
+	.myName
+		height: 14em 
+		width: 45%
 	.myInfo
-		font-size: 1em
+		float: right
+		width: 45%
+		span
+			font-size: 0.8em
+			margin-left: 1%
+			margin-bottom: 0.5em
 	.techGrid 
 		width: 95% 
 	.vTitle
 		margin-right: 9%
-		height: 1070px
+		height: 1090px
 	.sTitle
 		.flip90
 			display: none
+
+
+	@media only screen and (max-width: 481px)
+	#experience
+		height: 1300px
+	.jTitle
+		font-size: 0.9em
+		background-color: #eee	
+
+	@media only screen and (max-width: 370px)
+	.jTitle
+		height: 3em
+	.myInfo
+		float: left
+		width: 100%
+	.jName
+		height: 3.5em
+	#experience
+		height: 1550px
+
+
